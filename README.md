@@ -39,6 +39,3 @@ Endrex Martin Akoto
 - LinkedIn: [Endrex Martin Akoto on LinkedIn](https://www.linkedin.com/in/endrex-akoto-02184b203/)
 
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
