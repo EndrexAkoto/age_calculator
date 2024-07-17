@@ -2,6 +2,8 @@ Age Calculator
 
 The Age Calculator is a simple web application that calculates a user's age based on their date of birth. It provides a straightforward interface for users to input their birth date and get an instant calculation of their age.
 Features
+![Age Calculator Preview](https://github.com/EndrexAkoto/age_calculator/raw/1687e84fa5f9c99551577aea15e2544903172f50/Screenshot%20from%202024-07-17%2013-03-14.png)
+
 
     Input Fields: Users can enter their birth day, month, and year.
     Instant Age Calculation: Calculates the age in years based on the current date.
