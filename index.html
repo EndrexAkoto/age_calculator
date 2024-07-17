@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Age Calculator</h1>
+        <form id="ageForm">
+            <label for="day">Day:</label>
+            <input type="number" id="day" name="day" min="1" max="31" required>
+            <label for="month">Month:</label>
+            <input type="number" id="month" name="month" min="1" max="12" required>
+            <label for="year">Year:</label>
+            <input type="number" id="year" name="year" required>
+            <button type="submit">Calculate Age</button>
+            <button type="button" id="clearButton">Clear</button>
+        </form>
+        <div id="result"></div>
+        <div class="color-options">
+            <div class="color-option" style="background: linear-gradient(135deg, #f5f7fa, #c3cfe2);" data-color="#f5f7fa, #c3cfe2"></div>
+            <div class="color-option" style="background: linear-gradient(135deg, #ff9a9e, #fad0c4);" data-color="#ff9a9e, #fad0c4"></div>
+            <div class="color-option" style="background: linear-gradient(135deg, #a18cd1, #fbc2eb);" data-color="#a18cd1, #fbc2eb"></div>
+            <div class="color-option" style="background: linear-gradient(135deg, #ffecd2, #fcb69f);" data-color="#ffecd2, #fcb69f"></div>
+            <div class="color-option" style="background: linear-gradient(135deg, #a1c4fd, #c2e9fb);" data-color="#a1c4fd, #c2e9fb"></div>
+            <div class="color-option" style="background: linear-gradient(135deg, #d4fc79, #96e6a1);" data-color="#d4fc79, #96e6a1"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
